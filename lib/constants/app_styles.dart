@@ -17,4 +17,17 @@ class Styles {
       fontFamily: fontFamily,
     );
   }
+
+  static TextStyle mediumTextStyle({
+    Color color = AppColors.primaryColor,
+    double size = 13,
+    String? fontFamily = _sansFontFamily,
+  }) {
+    return TextStyle(
+      fontSize: size,
+      fontWeight: FontWeight.w500,
+      color: color,
+      fontFamily: fontFamily,
+    );
+  }
 }
